@@ -1,14 +1,18 @@
-name: Check dist/
+name: My_first_workflow
 
 on:
   push:
     branches:
       - main
+  
+job: 
+  hello_world:
 
-jobs:
-  Hola-Mundo:
     runs-on: ubuntu-latest
 
     steps:
-      - name: Install dependencies
-        run: echo "Hola Mundo desde un workflow en github actions"
+      - name: hello World
+        run: echo "Hello world from github actions"
+
+
+

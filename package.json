@@ -23,5 +23,8 @@
   "homepage": "https://github.com/Agajanth/cypress_typescript#readme",
   "dependencies": {
     "cypress": "^9.5.4"
+  },
+  "devDependencies": {
+    "typescript": "^4.6.3"
   }
 }
