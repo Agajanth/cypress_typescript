@@ -1,0 +1,14 @@
+name: Check dist/
+
+on:
+  push:
+    branches:
+      - main
+
+jobs:
+  Hola-Mundo:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Install dependencies
+        run: echo "Hola Mundo desde un workflow en github actions"
