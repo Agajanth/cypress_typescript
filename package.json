@@ -1,0 +1,27 @@
+{
+  "name": "cypress_typescript",
+  "version": "1.0.0",
+  "description": "Cypress project in typescript for making testing in differents CI/CD tools",
+  "main": "index.js",
+  "scripts": {
+    "test": "cypress run"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/Agajanth/cypress_typescript.git"
+  },
+  "keywords": [
+    "Cypress",
+    "TypeScript",
+    "Github-Actions"
+  ],
+  "author": "Agajanth",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Agajanth/cypress_typescript/issues"
+  },
+  "homepage": "https://github.com/Agajanth/cypress_typescript#readme",
+  "dependencies": {
+    "cypress": "^9.5.4"
+  }
+}
